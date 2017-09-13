@@ -1,10 +1,10 @@
 FROM jeeva420/mono
-MAINTAINER sparklyballs
+MAINTAINER Jeeva Kailasam
 
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+LABEL build_version="jeeva420 version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 
 # environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
